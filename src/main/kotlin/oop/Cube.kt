@@ -1,7 +1,7 @@
 import kotlin.math.pow
 
-data class Cube(val side: Int) :ThreeDimensionalObjects {
-    override fun getVolume():Int{
+data class Cube(val side: Int) : ThreeDimensionalObjects {
+    override fun getVolume(): Int {
         return side.toDouble().pow(3).toInt()
     }
 
